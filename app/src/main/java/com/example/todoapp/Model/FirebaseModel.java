@@ -34,7 +34,6 @@ public class FirebaseModel {
     private final StorageReference storageRef;
     private final FirebaseStorage firebaseStorage;
 
-
     // check  instance
     public FirebaseModel() {
         db = FirebaseFirestore.getInstance();
