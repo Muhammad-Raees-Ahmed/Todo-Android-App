@@ -29,6 +29,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class FirebaseModel {
+    // private variables
     private static FirebaseModel single_instance = null;
     private final FirebaseFirestore db;
     private final StorageReference storageRef;
