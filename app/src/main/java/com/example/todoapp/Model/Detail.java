@@ -22,29 +22,9 @@ public class Detail {
     }
 
     // getters set filed in firestore
-    public String getId() {
-        return id;
-    }
 
-    public String getName() {
-        return name;
-    }
 
-    public String getTask() {
-        return task;
-    }
 
-    public long getCreatedDate() {
-        return createdDate;
-    }
-
-    public String getLogopath() {
-        return logopath;
-    }
-
-    public String getLogourl() {
-        return logourl;
-    }
 }
 
 
