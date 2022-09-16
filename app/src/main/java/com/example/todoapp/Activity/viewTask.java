@@ -50,6 +50,7 @@ public class viewTask extends AppCompatActivity implements View.OnClickListener 
 
     private void initializeData() {
         // Initialize RecyclerView and set
+
         todoList = new ArrayList<>();
         recyclerView = findViewById(R.id.todo_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

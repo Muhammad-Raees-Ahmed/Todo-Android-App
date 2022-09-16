@@ -75,7 +75,6 @@ public class TodoArrayAdapter extends RecyclerView.Adapter<TodoViewHolder> {
         return arrayOfTodos.size();
     }
 
-
     public static class CustomDialogClassDeleteTodo extends Dialog {
 
         private final Detail detail;

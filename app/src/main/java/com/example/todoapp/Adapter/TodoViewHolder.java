@@ -23,6 +23,7 @@ public class TodoViewHolder extends RecyclerView.ViewHolder {
 
     public TodoViewHolder(@NonNull View itemView) {
         super(itemView);
+
         txtName = itemView.findViewById(R.id.name);
         txtTask=itemView.findViewById(R.id.task);
         delete_cv=itemView.findViewById(R.id.delete);
@@ -30,6 +31,7 @@ public class TodoViewHolder extends RecyclerView.ViewHolder {
         todoImage=itemView.findViewById(R.id.taskImage);
 
     }
+
     public static void setDetails(Detail detail, Activity activity) {
         txtName.setText(detail.getName());
         txtTask.setText(detail.getTask());

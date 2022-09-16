@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     void showCustomDialog() {
+
         dialog = new Dialog(MainActivity.this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(true);

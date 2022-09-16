@@ -95,7 +95,6 @@ public class FirebaseModel {
                                         .addOnCompleteListener(task1 -> mainActivity.updateUI(task1.isSuccessful()));
                             }));
 
-
         }
 
     }
