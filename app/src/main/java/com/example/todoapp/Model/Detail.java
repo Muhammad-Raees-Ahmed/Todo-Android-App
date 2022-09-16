@@ -23,7 +23,6 @@ public class Detail {
 
     // getters set filed in firestore
 
-
     public String getId() {
         return id;
     }
